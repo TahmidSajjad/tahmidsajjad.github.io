@@ -1,0 +1,160 @@
+a {
+    text-decoration: none!important;
+}
+
+
+
+#main {
+    background-color: #D91E18;
+}
+
+
+
+
+.t-hover-black:hover i {
+    color: crimson!important
+}
+
+
+
+.bio {
+    font-size: 1.2em;
+}
+
+p {
+    color: white;
+}
+
+.skill-bar {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.skill-bar:hover {
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -moz-transition: 0.70s;
+    -ms-transition: 0.70s;
+    -o-transition: 0.70s;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+
+
+}
+
+
+#portfolio img {
+    width: 520px;
+}
+
+
+
+
+.fa-facebook,
+.fa-twitter,
+.fa-github,
+.fa-free-code-camp {
+    -webkit-transition: color 0.02s;
+    transition: color 0.02s;
+}
+
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: #c13584;
+}
+
+.fa-twitter:hover {
+    color: #00aced;
+}
+
+.fa-github:hover {
+    color: #4078c0;
+}
+
+.fa-free-code-camp:hover {
+    color: #006400;
+}
+
+.end {
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width:600px) {
+    .me {
+        width: 300px;
+    }
+
+    #portfolio img {
+        width: 80%;
+        padding: 10px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:1215px) {
+    .me {
+        width: 300px;
+    }
+
+    #portfolio img {
+        width: 80%px;
+        padding: 10px;
+    }
+
+
+}
+
+
+@media only screen and (min-width:1140px) {
+
+    .shiny {
+        background-color: #000;
+        border-radius: 15px;
+        width: 481px;
+        height: 321px;
+        overflow: hidden;
+        padding: 5px;
+        margin: 5px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .show-off {
+        height: 481px;
+        width: 321px;
+        position: relative;
+        top: -556px;
+        left: -550px;
+        transition: 1s;
+        transform: rotate(30deg);
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0)50%, rgba(255, 255, 255, 0.7)100%);
+    }
+
+
+    .shiny:hover .show-off {
+        transform: rotate(0);
+        left: 560px;
+        top: -445px;
+    }
+
+
+}
