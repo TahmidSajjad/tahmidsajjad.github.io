@@ -2,20 +2,13 @@ a {
     text-decoration: none!important;
 }
 
-
-
 #main {
     background-color: #000;
 }
 
-
-
-
 .t-hover-black:hover i {
     color: crimson!important
 }
-
-
 
 .bio {
     font-size: 1.2em;
