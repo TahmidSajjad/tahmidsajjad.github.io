@@ -102,10 +102,7 @@ footer {
         width: 80%;
         padding: 10px;
     }
-
-
 }
-
 
 @media only screen and (max-width:1215px) {
     .me {
@@ -116,13 +113,9 @@ footer {
         width: 80%px;
         padding: 10px;
     }
-
-
 }
 
-
 @media only screen and (min-width:1140px) {
-
     .shiny {
         background-color: #000;
         border-radius: 15px;
